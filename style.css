@@ -22,6 +22,7 @@ main{
     border-radius: 2rem;
     z-index: 2;
     backdrop-filter: blur(2rem);
+    display: flex;
 }
 
 .circle1, 
@@ -49,4 +50,14 @@ main{
     left: 70%;
     top: 55%;
     border-radius: 50%;
+}
+
+.dashboard
+{
+    flex: 1;
+}
+
+.games
+{
+    flex: 1;
 }
