@@ -10,25 +10,25 @@
 h1
 {
     color: #426696;
-    font-weight: 300px;
+    font-weight: 600px;
     font-size: 30px;
     opacity: 0.6;
 }
 
-h2
+h2, p
 {
-    color: #426696;
-    font-weight: 300px;
+    color: #658ec6;
+    font-weight: 600px;
     font-size: 20px;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 h3
 {
     color: #426696;
-    font-weight: 300px;
+    font-weight: 600px;
     font-size: 25px;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 
@@ -97,7 +97,7 @@ main{
 .link
 {
     display: flex;
-    padding: 1rem 1rem;
+    padding: 10px 10px;
 }
 
 .link h2
@@ -134,5 +134,38 @@ main{
 
 .pro h2{
     width: 40%;
-    color: rgb(85, 5, 244);
+    color: white;
+    font-weight: 600px;
+    opacity: 1;
+}
+
+/* Games */
+
+.status
+{
+    margin-bottom: 2rem ;
+}
+
+.status input
+{
+   
+    background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border: none;
+    outline: none;
+    width: 50%;
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+.games
+{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    
 }
